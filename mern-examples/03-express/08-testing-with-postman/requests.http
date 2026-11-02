@@ -1,0 +1,26 @@
+### Testing with Postman, Thunder Client or the REST Client extension
+### Start any server from this folder first, e.g. ../09-crud-array-create-read.js
+### Install the "REST Client" extension in VS Code, then click "Send Request" above each block.
+
+### 1. List all jobs (GET)
+GET http://localhost:5000/api/jobs
+
+### 2. Create a job (POST with a JSON body)
+POST http://localhost:5000/api/jobs
+Content-Type: application/json
+
+{
+  "company": "Acme",
+  "ctc": 8
+}
+
+### 3. Update job 1 (PUT)
+PUT http://localhost:5000/api/jobs/1
+Content-Type: application/json
+
+{
+  "ctc": 10
+}
+
+### 4. Delete job 1 (DELETE)
+DELETE http://localhost:5000/api/jobs/1

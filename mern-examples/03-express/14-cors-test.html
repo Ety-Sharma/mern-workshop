@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <body>
+    <h3>CORS test</h3>
+    <p>Open this file with Live Server (it runs on port 5500), with 14-cors.js running on port 5000.</p>
+    <pre id="out">loading...</pre>
+    <script>
+      fetch("http://localhost:5000/api/jobs")
+        .then((r) => r.json())
+        .then((d) => (document.getElementById("out").textContent = JSON.stringify(d, null, 2)))
+        .catch((e) => (document.getElementById("out").textContent = "Blocked: " + e.message + " (press F12)"));
+    </script>
+  </body>
+</html>

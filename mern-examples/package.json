@@ -1,0 +1,14 @@
+{
+  "name": "mern-examples",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "One simple example per topic for the MERN workshop",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.0.0",
+    "mongoose": "^8.8.0",
+    "morgan": "^1.10.0"
+  }
+}
