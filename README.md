@@ -7,6 +7,7 @@ Learn the MERN stack (MongoDB, Express, React, Node.js) step by step. This repo 
 | Path | What it is |
 |---|---|
 | `MERN_Stack_Development-2.key` | Workshop slides (Keynote) |
+| `Git-Guide-for-Students.pdf` | Beginner Git and GitHub guide: every command explained (what it does, why you run it) |
 | `HTML-CSS-JS-Task/` | Warm-up: HTML and CSS tasks plus a final project. Start with its `README.md` |
 | `mern-examples/` | One simple example per topic. Read and run these first. See `mern-examples/README.md` |
 | `Tasks/` | Your practice tasks, in the same order as the examples |
