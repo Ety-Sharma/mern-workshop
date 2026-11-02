@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colour battle</title>
+  <link rel="stylesheet" href="mission.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 📋 START of the instructions box. It is only here to guide you, no need to edit it. -->
+  <aside id="mission">
+    <details open>
+      <summary>⚔️ Your mission: Colour battle</summary>
+      <p>Four paragraphs, many rules, one winner each time. Add the rules <b>one at a time</b>, save after each one, and watch which colour wins.</p>
+      <div class="steps">
+      <label><input type="checkbox"> <b>Step 1:</b> Element selector: make every p blue (color: royalblue)</label>
+      <label><input type="checkbox"> <b>Step 2:</b> Class selector: make .note green (color: seagreen). The class is stronger than the element, so it wins</label>
+      <label><input type="checkbox"> <b>Step 3:</b> Id selector: make #boss crimson. An id is the strongest of the three</label>
+      <label><input type="checkbox"> <b>Step 4:</b> Inheritance: on .wrapper set font-family Georgia, serif, font-size 20px and border 3px solid black. Children inherit the font but NOT the border</label>
+      <label><input type="checkbox"> <b>Step 5:</b> Source order: add ANOTHER .note rule BELOW the green one with color darkorange. Same strength, so the last one wins</label>
+      </div>
+      <p class="see"><b>✅ You'll know it works when:</b></p>
+      <ul><li>Plain paragraph is blue.</li><li>The two .note paragraphs are orange (the LAST rule wins when strength is equal).</li><li>The #boss paragraph is crimson (id beats class beats element).</li><li>All text uses the Georgia font (inherited) but only the wrapper has the black border.</li></ul>
+      <p class="tip">Tip: open the code, find each <b>✏️ TODO</b> comment, write your code, save, then refresh the browser (or use Go Live). Tick the boxes as you go.</p>
+    </details>
+  </aside>
+  <!-- 📋 END of the instructions box -->
+  <main class="wrapper">
+    <p>I am a plain paragraph.</p>
+    <p class="note">I have the class "note".</p>
+    <p class="note" id="boss">I have the class "note" AND the id "boss".</p>
+    <p class="note">I am another "note" paragraph.</p>
+  </main>
+</body>
+</html>

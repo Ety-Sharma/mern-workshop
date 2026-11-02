@@ -1,0 +1,27 @@
+body { background: #fdf3e3; font-family: Arial, sans-serif; color: #3b2a1a; padding: 16px; }
+.menu { max-width: 460px; margin: 0 auto; background: #fff; padding: 24px; border-radius: 16px; }
+
+/* ✏️ TODO 1: Group selector: style h1 and h2 together: font-family Georgia, serif and color #4a2c17 */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 2: Descendant selector: every li inside .menu gets padding 8px 0 and a border-bottom: 1px dashed #d9b98c */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 3: Child selector (>): only a p that is a DIRECT child of .menu gets text-align center and color gray */
+/* 💡 Hint: .menu > p */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 4: Adjacent sibling (+): the p that comes right after an h2 gets font-style italic and color #8a5a2b */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 5: Attribute selector: links with target="_blank" get color crimson and font-weight bold */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 6: Class selector: .price gets color #b45309 and font-weight bold */
+/* ⬇️ Write your code below this line */
+

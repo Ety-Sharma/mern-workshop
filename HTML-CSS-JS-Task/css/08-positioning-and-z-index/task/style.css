@@ -1,0 +1,31 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f8fafc; }
+.page { padding: 16px; max-width: 700px; margin: 0 auto; }
+.topbar { background: #1e293b; color: #fff; padding: 14px 20px; font-weight: bold; }
+.product { width: 260px; padding: 20px; background: #fff; border: 2px solid #cbd5e1; border-radius: 12px; }
+.badge { background: #ef4444; color: #fff; font-size: 12px; font-weight: bold; padding: 4px 10px; border-radius: 99px; }
+.to-top { background: #6366f1; color: #fff; padding: 12px 18px; border-radius: 99px; text-decoration: none; font-weight: bold; }
+.layer { width: 120px; height: 120px; display: grid; place-items: center; color: #fff; font-size: 28px; font-weight: bold; border-radius: 12px; }
+.layer-1 { background: #3b82f6; }
+.layer-2 { background: #f97316; }
+.layer-3 { background: #22c55e; }
+
+/* ✏️ TODO 1: Sticky: .topbar gets position sticky, top 0 and z-index 10 */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 2: Absolute inside relative: .product gets position relative (the anchor). Then .badge gets position absolute, top 12px and right 12px */
+/* 💡 Hint: absolute is placed against the nearest parent that has a position */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 3: Fixed: .to-top gets position fixed, bottom 20px and right 20px */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 4: Make the squares overlap: .stack gets position relative and height 220px. Each .layer gets position absolute. Then give .layer-1 top 0 and left 0, .layer-2 top 30px and left 40px, .layer-3 top 60px and left 80px */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 5: z-index: bring the BLUE square (.layer-1) to the front with z-index 5 */
+/* ⬇️ Write your code below this line */
+

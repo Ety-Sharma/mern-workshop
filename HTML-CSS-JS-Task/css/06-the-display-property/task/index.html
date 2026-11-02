@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu bar and badges</title>
+  <link rel="stylesheet" href="mission.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 📋 START of the instructions box. It is only here to guide you, no need to edit it. -->
+  <aside id="mission">
+    <details open>
+      <summary>🧱 Your mission: Menu bar and badges</summary>
+      <p>The <code>display</code> property decides how a box behaves: on its own line (<b>block</b>), inside a line (<b>inline</b>), or inline with a size (<b>inline-block</b>). This connects directly to what you learnt in HTML.</p>
+      <div class="steps">
+      <label><input type="checkbox"> <b>Step 1:</b> Make the menu horizontal: .menu li gets display: inline</label>
+      <label><input type="checkbox"> <b>Step 2:</b> Make each menu link a button: .menu a gets display inline-block, padding 10px 18px, background #6366f1, color white, text-decoration none and border-radius 8px</label>
+      <label><input type="checkbox"> <b>Step 3:</b> Give .badge a width of 70px, text-align center, background #ef4444 and color white. Width only works after display: inline-block</label>
+      <label><input type="checkbox"> <b>Step 4:</b> Make .row display: block with padding 12px, border 1px solid #cbd5e1 and margin-bottom 8px, so the whole row is clickable</label>
+      <label><input type="checkbox"> <b>Step 5:</b> Hide two boxes in two ways: .gone gets display: none and .invisible gets visibility: hidden. See the difference?</label>
+      </div>
+      <p class="see"><b>✅ You'll know it works when:</b></p>
+      <ul><li>The menu is a horizontal row of purple buttons.</li><li>The red NEW badge has a fixed width.</li><li>Each "row" link is clickable across its whole width.</li><li>Box 2 vanished without a gap, Box 3 vanished but left a gap.</li></ul>
+      <p class="tip">Tip: open the code, find each <b>✏️ TODO</b> comment, write your code, save, then refresh the browser (or use Go Live). Tick the boxes as you go.</p>
+    </details>
+  </aside>
+  <!-- 📋 END of the instructions box -->
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <p>Order status: <span class="badge">NEW</span></p>
+
+    <a class="row" href="#">Row link one: click anywhere on me</a>
+    <a class="row" href="#">Row link two: click anywhere on me</a>
+
+    <div class="box">Box 1: I am normal</div>
+    <div class="box gone">Box 2: I use display: none</div>
+    <div class="box invisible">Box 3: I use visibility: hidden</div>
+    <div class="box">Box 4: look at the gap above me</div>
+  </main>
+</body>
+</html>

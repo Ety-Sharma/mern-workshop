@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block and inline X-ray</title>
+  <link rel="stylesheet" href="mission.css">
+  <link rel="stylesheet" href="xray.css">
+</head>
+<body>
+  <!-- 📋 START of the instructions box. It is only here to guide you, no need to edit it. -->
+  <aside id="mission">
+    <details open>
+      <summary>🔍 Your mission: Block and inline X-ray</summary>
+      <p>Put on the X-ray goggles! This page draws a <b style="color:#2563eb">blue</b> box around every <b>block</b> element and an <b style="color:#ea580c">orange</b> box around every <b>inline</b> element. Block elements take a whole line. Inline elements flow like words.</p>
+      <div class="steps">
+      <label><input type="checkbox"> <b>Step 1:</b> Add THREE div boxes: one with your name, one with your city, one with your favourite food</label>
+      <label><input type="checkbox"> <b>Step 2:</b> Wrap "fast" in strong, "gently" in em, and "my website" in a link: &lt;a href="#"&gt;</label>
+      <label><input type="checkbox"> <b>Step 3:</b> Wrap "NGF College" and "Palwal" each in a span</label>
+      <label><input type="checkbox"> <b>Step 4:</b> Add 3 more li to each list (block: p, h1, ul. inline: a, strong, em)</label>
+      <label><input type="checkbox"> <b>Step 5:</b> Swap the tags so the div is outside and the span is inside</label>
+      </div>
+      <p class="see"><b>✅ You'll know it works when:</b></p>
+      <ul><li>Your three div boxes each take a full line (blue).</li><li>Orange boxes sit inside the sentence and only wrap their own words.</li><li>The "oops" example has a div on the outside and a span inside.</li></ul>
+      <p class="tip">Tip: open the code, find each <b>✏️ TODO</b> comment, write your code, save, then refresh the browser (or use Go Live). Tick the boxes as you go.</p>
+    </details>
+  </aside>
+  <!-- 📋 END of the instructions box -->
+  <main>
+    <h1>Block &amp; Inline X-Ray</h1>
+    <p class="legend">🔵 Blue = block elements &nbsp;|&nbsp; 🟠 Orange = inline elements</p>
+
+    <h2>1. Block boxes</h2>
+    <!-- ✏️ TODO 1: Add THREE div boxes: one with your name, one with your city, one with your favourite food -->
+    <!-- ⬇️ Write your code below this line -->
+
+
+    <h2>2. Inline words inside a paragraph</h2>
+    <!-- ✏️ TODO 2: Wrap "fast" in strong, "gently" in em, and "my website" in a link: <a href="#"> -->
+    <!-- 💡 Hint: All three are inline tags, so they stay inside the line -->
+    <!-- ⬇️ Write your code below this line -->
+    <p>Learning HTML is fast when you practise every day. Type gently, save often, and open my website to see the result.</p>
+
+    <!-- ✏️ TODO 3: Wrap "NGF College" and "Palwal" each in a span -->
+    <!-- ⬇️ Write your code below this line -->
+    <p>I study at NGF College in Palwal and I am building my first website.</p>
+
+
+    <h2>3. Cheat sheet</h2>
+    <!-- ✏️ TODO 4: Add 3 more li to each list (block: p, h1, ul. inline: a, strong, em) -->
+    <!-- ⬇️ Write your code below this line -->
+    <h3>Block tags</h3>
+    <ul>
+      <li>div</li>
+    </ul>
+    <h3>Inline tags</h3>
+    <ul>
+      <li>span</li>
+    </ul>
+
+
+    <h2>4. Spot the mistake</h2>
+    <p>A span (inline) should not hold a div (block). Fix it: put the div on the outside and the span on the inside.</p>
+    <!-- ✏️ TODO 5: Swap the tags so the div is outside and the span is inside -->
+    <!-- ⬇️ Write your code below this line -->
+    <span><div>I am a block element inside an inline. Oops!</div></span>
+
+  </main>
+</body>
+</html>

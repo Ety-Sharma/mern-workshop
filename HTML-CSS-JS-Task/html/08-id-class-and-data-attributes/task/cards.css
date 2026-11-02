@@ -1,0 +1,11 @@
+/* 🎨 Ready-made card styles. You do not need to edit this file.
+   Your job is to use the right class names in the HTML. */
+body { font-family: Arial, sans-serif; background: #f8fafc; padding: 16px; }
+.card { position: relative; max-width: 420px; margin: 14px 0; padding: 12px 18px; background: #fff;
+        border: 2px solid #cbd5e1; border-radius: 12px; }
+.card h2 { margin: 0 0 4px; font-size: 20px; }
+.card p { margin: 0; color: #475569; }
+.card--featured { border-color: #f59e0b; background: #fffbeb; }
+.card--featured::before { content: "⭐ Pick of the day"; display: block; font-weight: bold; color: #b45309; font-size: 13px; }
+.card--new::after { content: "NEW"; position: absolute; top: 12px; right: 14px; background: #ef4444; color: #fff;
+        font-size: 12px; font-weight: bold; padding: 2px 10px; border-radius: 99px; }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button and list lab</title>
+  <link rel="stylesheet" href="mission.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 📋 START of the instructions box. It is only here to guide you, no need to edit it. -->
+  <aside id="mission">
+    <details open>
+      <summary>🧪 Your mission: Button and list lab</summary>
+      <p>Make the page react! Pseudo-classes style an element in a <b>state</b> (hover, focus, every second one). Pseudo-elements style a <b>part</b> or add decoration with CSS.</p>
+      <div class="steps">
+      <label><input type="checkbox"> <b>Step 1:</b> :hover on .btn: background #4338ca and transform scale(1.08)</label>
+      <label><input type="checkbox"> <b>Step 2:</b> :focus on input: outline 3px solid #6366f1 and background #eef2ff</label>
+      <label><input type="checkbox"> <b>Step 3:</b> :nth-child(even): every second li inside .habits gets background #eef2ff</label>
+      <label><input type="checkbox"> <b>Step 4:</b> ::before: put a tick before every habit with content: "✅ "</label>
+      <label><input type="checkbox"> <b>Step 5:</b> ::after: add a red star after the label .required with content: " *" and color red</label>
+      <label><input type="checkbox"> <b>Step 6:</b> ::first-letter: make the first letter of .story big (font-size 2.5em), bold and pink (#be185d)</label>
+      </div>
+      <p class="see"><b>✅ You'll know it works when:</b></p>
+      <ul><li>The button grows and changes colour when your mouse is over it.</li><li>Clicking the input gives it a purple outline.</li><li>Every second habit has a light purple background and every habit has a tick.</li><li>The red * appears after Email and the story starts with a big pink letter.</li></ul>
+      <p class="tip">Tip: open the code, find each <b>✏️ TODO</b> comment, write your code, save, then refresh the browser (or use Go Live). Tick the boxes as you go.</p>
+    </details>
+  </aside>
+  <!-- 📋 END of the instructions box -->
+  <main class="lab">
+    <h1>Button &amp; list lab</h1>
+
+    <button class="btn">Hover over me</button>
+
+    <p>
+      <label class="required" for="mail">Email</label><br>
+      <input id="mail" type="email" placeholder="Click inside me">
+    </p>
+
+    <h2>My daily habits</h2>
+    <ul class="habits">
+      <li>Wake up early</li>
+      <li>Drink water</li>
+      <li>Practise HTML</li>
+      <li>Practise CSS</li>
+      <li>Walk for 20 minutes</li>
+      <li>Sleep on time</li>
+    </ul>
+
+    <p class="story">Once upon a time, a curious student typed her first line of CSS and the whole page changed colour.</p>
+  </main>
+</body>
+</html>

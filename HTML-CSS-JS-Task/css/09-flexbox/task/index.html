@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox playground</title>
+  <link rel="stylesheet" href="mission.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 📋 START of the instructions box. It is only here to guide you, no need to edit it. -->
+  <aside id="mission">
+    <details open>
+      <summary>📐 Your mission: Navbar, hero and feature row</summary>
+      <p>Flexbox arranges items in a row or a column. You will build three things that every website has: a <b>navbar</b>, a perfectly <b>centred box</b> and a <b>row of equal cards</b>.</p>
+      <div class="steps">
+      <label><input type="checkbox"> <b>Step 1:</b> Navbar: .navbar gets display flex, justify-content space-between, align-items center and gap 16px</label>
+      <label><input type="checkbox"> <b>Step 2:</b> Links in a row: .links gets display flex and gap 20px</label>
+      <label><input type="checkbox"> <b>Step 3:</b> Centre a box both ways: .hero gets display flex, justify-content center and align-items center</label>
+      <label><input type="checkbox"> <b>Step 4:</b> Equal cards: .features gets display flex and gap 16px. Each .feature gets flex 1 so they share the width equally</label>
+      <label><input type="checkbox"> <b>Step 5:</b> Wrapping tags: .tags gets display flex, flex-wrap wrap and gap 8px. Now make the window narrow</label>
+      </div>
+      <p class="see"><b>✅ You'll know it works when:</b></p>
+      <ul><li>Logo on the left, links in the middle, button on the right, all vertically centred.</li><li>The white box is centred both ways inside the blue hero.</li><li>Three feature cards share the width equally.</li><li>The tags wrap onto new lines when you make the window narrow.</li></ul>
+      <p class="tip">Tip: open the code, find each <b>✏️ TODO</b> comment, write your code, save, then refresh the browser (or use Go Live). Tick the boxes as you go.</p>
+    </details>
+  </aside>
+  <!-- 📋 END of the instructions box -->
+  <header class="navbar">
+    <a class="logo" href="#">MyBrand</a>
+    <nav class="links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+    <button class="cta">Sign up</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-box">Perfectly centred!</div>
+  </section>
+
+  <section class="features">
+    <div class="feature">⚡ Fast</div>
+    <div class="feature">🎨 Pretty</div>
+    <div class="feature">📱 Responsive</div>
+  </section>
+
+  <section class="tags">
+    <span>HTML</span><span>CSS</span><span>Flexbox</span><span>Grid</span>
+    <span>Git</span><span>GitHub</span><span>VS Code</span><span>DevTools</span>
+  </section>
+</body>
+</html>

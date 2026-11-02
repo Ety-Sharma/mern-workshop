@@ -1,0 +1,10 @@
+/* 🔍 X-ray goggles: this file draws coloured outlines so you can SEE the boxes.
+   You do not need to edit it. */
+main div, main p, main h1, main h2, main ul, main ol, main li {
+  outline: 2px solid #3b82f6; outline-offset: -2px; background: rgba(59,130,246,.08);
+}
+main span, main strong, main em, main a, main code {
+  outline: 2px solid #f97316; background: rgba(249,115,22,.18);
+}
+body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 760px; margin: 0 auto; padding: 16px; }
+.legend { font-weight: bold; }

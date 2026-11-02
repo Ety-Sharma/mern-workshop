@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- ✏️ TODO 1: Add the viewport meta tag. Without it phones pretend to be a big screen and everything looks tiny -->
+  <!-- 💡 Hint: <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <!-- ⬇️ Write your code below this line -->
+
+  <title>Make it phone-friendly</title>
+  <link rel="stylesheet" href="mission.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 📋 START of the instructions box. It is only here to guide you, no need to edit it. -->
+  <aside id="mission">
+    <details open>
+      <summary>📱 Your mission: Make it phone-friendly</summary>
+      <p>The same page must look good on a phone, a tablet and a laptop. Work <b>mobile first</b>: write the small-screen layout first, then use media queries to add more columns as the screen grows.</p>
+      <div class="steps">
+      <label><input type="checkbox"> <b>Step 1:</b> Add the viewport meta tag. Without it phones pretend to be a big screen and everything looks tiny <code>index.html</code></label>
+      <label><input type="checkbox"> <b>Step 2:</b> Flexible image: .banner gets display block, width 100% and max-height 320px and object-fit cover, so it never overflows <code>style.css</code></label>
+      <label><input type="checkbox"> <b>Step 3:</b> Mobile layout: .cards gets display grid, grid-template-columns 1fr, gap 16px and padding 16px (one column) <code>style.css</code></label>
+      <label><input type="checkbox"> <b>Step 4:</b> Tablet: at min-width 600px, .cards gets grid-template-columns repeat(2, 1fr) <code>style.css</code></label>
+      <label><input type="checkbox"> <b>Step 5:</b> Laptop: at min-width 900px, .cards gets repeat(3, 1fr) and .nav becomes a row (flex-direction row, gap 24px) <code>style.css</code></label>
+      </div>
+      <p class="see"><b>✅ You'll know it works when:</b></p>
+      <ul><li>On a narrow window (or phone view) the cards are stacked and the menu is a column.</li><li>From 600px wide you get two columns; from 900px wide you get three columns and a horizontal menu.</li><li>The big image never overflows the screen.</li><li>Test it: press F12, then Ctrl+Shift+M and drag the width.</li></ul>
+      <p class="tip">Tip: open the code, find each <b>✏️ TODO</b> comment, write your code, save, then refresh the browser (or use Go Live). Tick the boxes as you go.</p>
+    </details>
+  </aside>
+  <!-- 📋 END of the instructions box -->
+  <header class="site-header">
+    <p class="brand">Wanderlust</p>
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">Trips</a>
+      <a href="#">Stories</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <img class="banner" src="images/mountain.jpg" alt="Orange sunset behind purple mountains">
+
+  <main class="cards">
+    <article class="card"><h2>Mountains</h2><p>Cold air, warm tea and big views.</p></article>
+    <article class="card"><h2>Beaches</h2><p>Sand, sun and a very red umbrella.</p></article>
+    <article class="card"><h2>Cities</h2><p>Lights, food and busy streets at night.</p></article>
+  </main>
+
+  <footer class="site-footer">© 2026 Wanderlust</footer>
+</body>
+</html>

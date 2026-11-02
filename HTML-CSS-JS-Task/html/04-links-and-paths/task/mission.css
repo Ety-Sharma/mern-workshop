@@ -1,0 +1,13 @@
+/* Helper file for the instructions box at the top of the page.
+   You do NOT need to edit anything in here. */
+#mission{box-sizing:border-box;max-width:860px;margin:0 auto 28px;padding:6px 20px 14px;background:#fffbeb;border:2px dashed #f59e0b;border-radius:14px;color:#1f2937;font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;text-align:left;position:relative;z-index:1000;display:block}
+#mission summary{cursor:pointer;font-size:18px;font-weight:700;padding:10px 0;color:#92400e;list-style:none;display:block}
+#mission summary::-webkit-details-marker{display:none}
+#mission p,#mission ul,#mission ol,#mission label,#mission div{max-width:none;line-height:1.55;margin:8px 0;padding:0;color:#1f2937;font:inherit;border:0;background:none;text-align:left;width:auto;height:auto;display:block;position:static}
+#mission .steps label{display:block;padding:7px 10px;border-radius:8px;background:#fff;border:1px solid #fde68a;margin:6px 0;cursor:pointer}
+#mission ul{padding-left:22px;list-style:disc}
+#mission input{margin:0 8px 0 0;vertical-align:middle}
+#mission code{background:#fef3c7;padding:1px 6px;border-radius:5px;font:13.5px ui-monospace,Consolas,monospace;color:#7c2d12}
+#mission .see{background:#ecfdf5;border:1px solid #a7f3d0;border-radius:8px;padding:8px 12px}
+#mission .tip{font-size:13.5px;color:#6b7280}
+#mission b,#mission strong{font-weight:700;color:inherit}

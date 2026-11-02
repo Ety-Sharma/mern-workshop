@@ -1,0 +1,31 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f8fafc; }
+.navbar { background: #1e293b; color: #fff; padding: 12px 24px; }
+.navbar a { color: #fff; text-decoration: none; }
+.logo { font-weight: bold; font-size: 20px; }
+.cta { background: #f59e0b; border: 0; padding: 10px 18px; border-radius: 8px; font-weight: bold; }
+.hero { height: 220px; background: #3b82f6; }
+.hero-box { background: #fff; padding: 20px 30px; border-radius: 12px; font-weight: bold; }
+.feature { background: #fff; border: 2px solid #cbd5e1; border-radius: 12px; padding: 24px; text-align: center; font-weight: bold; }
+.features, .tags { padding: 16px; }
+.tags span { background: #e0e7ff; color: #3730a3; padding: 6px 14px; border-radius: 99px; }
+
+/* ✏️ TODO 1: Navbar: .navbar gets display flex, justify-content space-between, align-items center and gap 16px */
+/* 💡 Hint: justify-content works along the row, align-items works across it */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 2: Links in a row: .links gets display flex and gap 20px */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 3: Centre a box both ways: .hero gets display flex, justify-content center and align-items center */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 4: Equal cards: .features gets display flex and gap 16px. Each .feature gets flex 1 so they share the width equally */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 5: Wrapping tags: .tags gets display flex, flex-wrap wrap and gap 8px. Now make the window narrow */
+/* ⬇️ Write your code below this line */
+

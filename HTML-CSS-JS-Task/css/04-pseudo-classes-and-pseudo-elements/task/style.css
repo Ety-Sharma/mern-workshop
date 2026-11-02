@@ -1,0 +1,31 @@
+body { font-family: Arial, sans-serif; background: #f8fafc; padding: 16px; }
+.lab { max-width: 480px; margin: 0 auto; background: #fff; padding: 24px; border-radius: 16px; }
+.btn { background: #6366f1; color: #fff; border: 0; padding: 12px 24px; border-radius: 10px; font-size: 16px; cursor: pointer; }
+input { padding: 8px 10px; border: 2px solid #cbd5e1; border-radius: 8px; }
+.habits { list-style: none; padding: 0; }
+.habits li { padding: 8px 12px; }
+
+/* ✏️ TODO 1: :hover on .btn: background #4338ca and transform scale(1.08) */
+/* 💡 Hint: .btn:hover { ... } */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 2: :focus on input: outline 3px solid #6366f1 and background #eef2ff */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 3: :nth-child(even): every second li inside .habits gets background #eef2ff */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 4: ::before: put a tick before every habit with content: "✅ " */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 5: ::after: add a red star after the label .required with content: " *" and color red */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 6: ::first-letter: make the first letter of .story big (font-size 2.5em), bold and pink (#be185d) */
+/* ⬇️ Write your code below this line */
+

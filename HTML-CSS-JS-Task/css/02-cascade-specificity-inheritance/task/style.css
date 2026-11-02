@@ -1,0 +1,23 @@
+/* Save after EVERY step and watch what changes. */
+body { background: #f8fafc; padding: 20px; }
+.wrapper { max-width: 560px; padding: 16px; }
+
+/* ✏️ TODO 1: Element selector: make every p blue (color: royalblue) */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 2: Class selector: make .note green (color: seagreen). The class is stronger than the element, so it wins */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 3: Id selector: make #boss crimson. An id is the strongest of the three */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 4: Inheritance: on .wrapper set font-family Georgia, serif, font-size 20px and border 3px solid black. Children inherit the font but NOT the border */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 5: Source order: add ANOTHER .note rule BELOW the green one with color darkorange. Same strength, so the last one wins */
+/* ⬇️ Write your code below this line */
+

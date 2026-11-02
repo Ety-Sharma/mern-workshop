@@ -1,0 +1,24 @@
+.hero { background: linear-gradient(135deg, #0ea5e9, #6366f1); color: #fff; text-align: center; padding: 24px; }
+.content { padding: 16px; }
+.swatches { display: flex; gap: 12px; }
+.swatch { width: 90px; height: 90px; border-radius: 12px; color: #fff; display: grid; place-items: center; font-weight: bold; }
+
+/* ✏️ TODO 1: Fonts and colour: body gets font-family "Poppins", Arial, sans-serif and color hsl(220 40% 15%). Arial is the fallback if Poppins does not load */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 2: rem units: h1 gets font-size 2.5rem and h2 gets font-size 1.4rem */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 3: Same colour, three ways: .hex background #0ea5e9, .rgb background rgb(14, 165, 233), .hsl background hsl(199 89% 48%) */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 4: Viewport and percent units: .hero gets min-height 60vh and display grid with place-items center. Then .half gets width 50%, background #fde68a and padding 16px */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 5: Comfortable text: p gets font-size 1rem, line-height 1.6 and max-width 60ch (ch = width of one character) */
+/* ⬇️ Write your code below this line */
+

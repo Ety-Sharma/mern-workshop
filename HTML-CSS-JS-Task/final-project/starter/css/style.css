@@ -1,0 +1,86 @@
+/* =========================================================
+   PORTFOLIO STYLES
+   Work from top to bottom. Save after each step and refresh.
+   ========================================================= */
+
+/* ---------- Already done for you ---------- */
+/* Colour variables: write var(--brand) anywhere you want that colour */
+:root {
+  --brand: #4f46e5;
+  --accent: #f59e0b;
+  --ink: #1e293b;
+  --muted: #64748b;
+  --soft: #f1f5f9;
+  --white: #ffffff;
+  --shadow: 0 6px 18px rgba(15, 23, 42, 0.12);
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+body { margin: 0; font-family: "Poppins", Arial, sans-serif; color: var(--ink); line-height: 1.6; background: var(--white); }
+img { max-width: 100%; height: auto; }
+
+/* ---------- Your steps ---------- */
+
+/* ✏️ TODO 1: Sections: .section gets padding 4rem 1.5rem. .alt gets background var(--soft). Then centre the content: ".section > *" gets max-width 1100px and margin-left and margin-right auto */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 2: Headings: h2 gets font-size 2rem, text-align center and margin-bottom 2.5rem. Then h2::after adds a small yellow line: content "", display block, width 60px, height 4px, background var(--accent), margin 0.6rem auto 0, border-radius 4px */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 3: Header: .site-header gets position sticky, top 0, z-index 100, background var(--white) and box-shadow var(--shadow). .header-inner gets display flex, flex-wrap wrap, justify-content center, align-items center, gap 0.5rem 2rem, max-width 1100px, margin 0 auto and padding 0.9rem 1.5rem */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 4: Nav: .logo gets font-size 1.4rem, font-weight 700, text-decoration none and color var(--ink). ".logo span" gets color var(--brand). .nav-links gets display flex, gap 1.5rem, list-style none, margin 0 and padding 0. ".nav-links a" gets text-decoration none, font-weight 600 and color var(--ink). ".nav-links a:hover" gets color var(--brand) */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 5: Hero: .hero gets display flex, flex-wrap wrap, align-items center, justify-content center, gap 2.5rem, min-height 80vh, padding 3rem 1.5rem, text-align center and background linear-gradient(135deg, #eef2ff, #fdf2f8). .hero-text gets max-width 520px */
+/* 💡 Hint: flex-wrap lets the photo drop below the text on small screens */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 6: Hero details: .eyebrow gets color var(--brand), font-weight 600 and margin 0. h1 gets font-size 2.4rem and margin 0.2rem 0. .tagline gets font-size 1.15rem and color var(--muted). .avatar gets width 280px, height 280px, border-radius 50% (a circle!), object-fit cover, border 6px solid var(--white) and box-shadow var(--shadow) */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 7: Buttons: .hero-buttons gets display flex, justify-content center, gap 1rem and margin-top 1.5rem. .btn gets display inline-block, padding 0.8rem 1.6rem, border 2px solid var(--brand), border-radius 999px, text-decoration none, font-weight 600 and transition transform 0.2s. .btn-primary gets background var(--brand) and color white. .btn-outline gets color var(--brand). .btn:hover gets transform translateY(-3px) */
+/* 💡 Hint: transition makes the hover movement smooth instead of a sudden jump */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 8: About: .about-grid gets display grid, gap 2rem and grid-template-columns repeat(auto-fit, minmax(300px, 1fr)). "figure" gets margin 1.5rem 0 0 and "figure img" gets border-radius 14px and box-shadow var(--shadow). figcaption gets text-align center, font-size 0.9rem and color var(--muted) */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 9: Table: .edu gets width 100% and border-collapse collapse. ".edu th, .edu td" get padding 0.8rem, text-align left and border-bottom 1px solid #e2e8f0. ".edu thead" gets background var(--brand) and color white. ".edu tbody tr:nth-child(even)" gets background var(--soft). ".edu caption" gets font-weight 600 and margin-bottom 0.6rem */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 10: Skills: .skills gets display grid, grid-template-columns repeat(auto-fit, minmax(130px, 1fr)), gap 1rem, list-style none and padding 0. ".skills li" gets display flex, flex-direction column, align-items center, gap 0.5rem, padding 1.2rem, background var(--white), border-radius 14px, box-shadow var(--shadow), font-weight 600 and transition transform 0.2s. ".skills li:hover" gets transform translateY(-5px) */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 11: Projects: .projects gets display grid, grid-template-columns repeat(auto-fit, minmax(270px, 1fr)) and gap 1.5rem. .project gets position relative, background var(--white), border-radius 16px, overflow hidden, box-shadow var(--shadow) and transition transform 0.2s. ".project:hover" gets transform translateY(-6px). ".project img" gets display block and width 100%. .project-body gets padding 1.2rem. ".project h3" gets margin 0 0 0.4rem. ".project a" gets color var(--brand), font-weight 600 and text-decoration none. Finally the badge: .tag gets position absolute, top 12px, right 12px, background var(--accent), font-size 0.75rem, font-weight 700, padding 0.25rem 0.7rem and border-radius 999px */
+/* 💡 Hint: The .tag sits in the corner because .project is position: relative */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 12: Contact: .contact-grid gets display grid, gap 2rem and grid-template-columns repeat(auto-fit, minmax(300px, 1fr)). .contact-form gets display grid and gap 1rem. ".contact-form label" gets font-weight 600. ".contact-form input, .contact-form textarea" get display block, width 100%, padding 0.8rem, border 2px solid #cbd5e1, border-radius 10px and font inherit. The same two get a :focus rule with outline none and border-color var(--brand). ".contact-form button" gets background var(--brand), color white, border 0, padding 0.9rem, border-radius 10px, font-weight 600 and cursor pointer */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 13: Social links: .socials gets list-style none, padding 0, display flex, flex-direction column and gap 1rem. ".socials a" gets display flex, align-items center, gap 0.7rem, text-decoration none, color var(--ink) and font-weight 600. ".socials a:hover" gets color var(--brand) */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 14: Footer: .site-footer gets background var(--ink), color #cbd5e1, text-align center and padding 2rem 1rem. ".site-footer a" gets color var(--accent) and ".site-footer p" gets margin 0 0 0.5rem */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 15: Responsive (mobile first!): your page is already small-screen friendly. Add a media query for min-width 800px that makes h1 font-size 3.4rem, .header-inner justify-content space-between, .hero text-align left and .hero-buttons justify-content flex-start */
+/* 💡 Hint: @media (min-width: 800px) { ... all four rules go inside ... } */
+/* ⬇️ Write your code below this line */
+

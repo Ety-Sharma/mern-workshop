@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Style guide poster</title>
+  <link rel="stylesheet" href="mission.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 📋 START of the instructions box. It is only here to guide you, no need to edit it. -->
+  <aside id="mission">
+    <details open>
+      <summary>🌈 Your mission: Style guide poster</summary>
+      <p>Pick sizes, colours and fonts the professional way: <code>rem</code> for text, <code>%</code> and <code>vh</code> for layout, and a font with a safe fallback.</p>
+      <div class="steps">
+      <label><input type="checkbox"> <b>Step 1:</b> Fonts and colour: body gets font-family "Poppins", Arial, sans-serif and color hsl(220 40% 15%). Arial is the fallback if Poppins does not load</label>
+      <label><input type="checkbox"> <b>Step 2:</b> rem units: h1 gets font-size 2.5rem and h2 gets font-size 1.4rem</label>
+      <label><input type="checkbox"> <b>Step 3:</b> Same colour, three ways: .hex background #0ea5e9, .rgb background rgb(14, 165, 233), .hsl background hsl(199 89% 48%)</label>
+      <label><input type="checkbox"> <b>Step 4:</b> Viewport and percent units: .hero gets min-height 60vh and display grid with place-items center. Then .half gets width 50%, background #fde68a and padding 16px</label>
+      <label><input type="checkbox"> <b>Step 5:</b> Comfortable text: p gets font-size 1rem, line-height 1.6 and max-width 60ch (ch = width of one character)</label>
+      </div>
+      <p class="see"><b>✅ You'll know it works when:</b></p>
+      <ul><li>The three blue swatches look exactly the same (same colour written 3 ways).</li><li>The hero banner is 60% of the window height; resize the window to see.</li><li>The yellow box is exactly half the width of its parent.</li><li>Paragraphs have comfortable line spacing and never run too wide.</li></ul>
+      <p class="tip">Tip: open the code, find each <b>✏️ TODO</b> comment, write your code, save, then refresh the browser (or use Go Live). Tick the boxes as you go.</p>
+    </details>
+  </aside>
+  <!-- 📋 END of the instructions box -->
+  <section class="hero">
+    <h1>Style Guide</h1>
+    <p>Sizes, colours and fonts</p>
+  </section>
+
+  <main class="content">
+    <h2>One blue, three ways</h2>
+    <div class="swatches">
+      <div class="swatch hex">hex</div>
+      <div class="swatch rgb">rgb</div>
+      <div class="swatch hsl">hsl</div>
+    </div>
+
+    <h2>Half width</h2>
+    <div class="half">I am 50% of my parent's width.</div>
+
+    <h2>Readable text</h2>
+    <p>Good text is easy to read. Use rem so the page respects the reader's font settings, a line height around 1.6, and never let lines run too long. About sixty characters per line is a comfortable limit for most people reading on a screen, so this paragraph will wrap at that width.</p>
+  </main>
+</body>
+</html>

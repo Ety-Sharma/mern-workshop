@@ -1,0 +1,18 @@
+body { font-family: Arial, sans-serif; background: #eef2ff; }
+
+/* ✏️ TODO 1: Box-sizing reset: make padding and border count INSIDE the width. Apply box-sizing: border-box to *, *::before and *::after */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 2: Give .card width 300px, padding 20px, border 3px solid #6366f1, background white and margin 20px auto (auto centres it) */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 3: Make it pretty: border-radius 16px and box-shadow 0 6px 18px rgba(0,0,0,0.15) on .card */
+/* 💡 Hint: Add the two lines inside your existing .card rule, or write a second .card rule */
+/* ⬇️ Write your code below this line */
+
+
+/* ✏️ TODO 4: Remove the extra space above each title: .card h2 gets margin-top 0 and margin-bottom 8px */
+/* ⬇️ Write your code below this line */
+

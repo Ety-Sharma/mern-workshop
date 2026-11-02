@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticket cards</title>
+  <link rel="stylesheet" href="mission.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 📋 START of the instructions box. It is only here to guide you, no need to edit it. -->
+  <aside id="mission">
+    <details open>
+      <summary>🎫 Your mission: Ticket cards</summary>
+      <p>Every element is a box: <b>content</b>, then <b>padding</b>, then <b>border</b>, then <b>margin</b>. Turn two plain text blocks into neat ticket cards.</p>
+      <div class="steps">
+      <label><input type="checkbox"> <b>Step 1:</b> Box-sizing reset: make padding and border count INSIDE the width. Apply box-sizing: border-box to *, *::before and *::after</label>
+      <label><input type="checkbox"> <b>Step 2:</b> Give .card width 300px, padding 20px, border 3px solid #6366f1, background white and margin 20px auto (auto centres it)</label>
+      <label><input type="checkbox"> <b>Step 3:</b> Make it pretty: border-radius 16px and box-shadow 0 6px 18px rgba(0,0,0,0.15) on .card</label>
+      <label><input type="checkbox"> <b>Step 4:</b> Remove the extra space above each title: .card h2 gets margin-top 0 and margin-bottom 8px</label>
+      </div>
+      <p class="see"><b>✅ You'll know it works when:</b></p>
+      <ul><li>Two cards, 300px wide, centred, with space between them.</li><li>Rounded corners and a soft shadow.</li><li>Open DevTools (F12), hover a card in Elements, and look at the coloured box diagram.</li></ul>
+      <p class="tip">Tip: open the code, find each <b>✏️ TODO</b> comment, write your code, save, then refresh the browser (or use Go Live). Tick the boxes as you go.</p>
+    </details>
+  </aside>
+  <!-- 📋 END of the instructions box -->
+  <article class="card">
+    <h2>Movie Night</h2>
+    <p>Friday · 7:30 PM · Hall 2</p>
+  </article>
+  <article class="card">
+    <h2>Coding Club</h2>
+    <p>Saturday · 11:00 AM · Lab 1</p>
+  </article>
+</body>
+</html>

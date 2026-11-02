@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo wall and page layout</title>
+  <link rel="stylesheet" href="mission.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 📋 START of the instructions box. It is only here to guide you, no need to edit it. -->
+  <aside id="mission">
+    <details open>
+      <summary>🧩 Your mission: Photo wall and page layout</summary>
+      <p>Grid places things in rows <b>and</b> columns at the same time. Build a photo wall, a gallery that rearranges itself, and a classic page layout.</p>
+      <div class="steps">
+      <label><input type="checkbox"> <b>Step 1:</b> Three columns: .wall gets display grid, grid-template-columns repeat(3, 1fr) and gap 16px</label>
+      <label><input type="checkbox"> <b>Step 2:</b> Make the first photo twice as wide: .wide gets grid-column span 2</label>
+      <label><input type="checkbox"> <b>Step 3:</b> Self-arranging cards: .cards gets display grid, gap 16px and grid-template-columns repeat(auto-fit, minmax(160px, 1fr)). Now drag the window width</label>
+      <label><input type="checkbox"> <b>Step 4:</b> Page layout: .page gets display grid, grid-template-columns 180px 1fr and gap 12px. Then make header and footer stretch across both columns with grid-column 1 / -1</label>
+      </div>
+      <p class="see"><b>✅ You'll know it works when:</b></p>
+      <ul><li>The photo wall has 3 columns and the first photo is twice as wide.</li><li>The coloured cards rearrange themselves when you resize the window (no media query!).</li><li>The page layout has a header and footer across the top and bottom, with a sidebar and main area in the middle.</li></ul>
+      <p class="tip">Tip: open the code, find each <b>✏️ TODO</b> comment, write your code, save, then refresh the browser (or use Go Live). Tick the boxes as you go.</p>
+    </details>
+  </aside>
+  <!-- 📋 END of the instructions box -->
+  <main class="container">
+    <h1>Photo wall 📸</h1>
+    <section class="wall">
+      <img class="wide" src="images/mountain.jpg" alt="Mountains at sunset">
+      <img src="images/beach.jpg" alt="Beach with a palm tree">
+      <img src="images/city.jpg" alt="City at night">
+      <img src="images/forest.jpg" alt="Pine forest">
+      <img src="images/mountain.jpg" alt="Mountains at sunset">
+    </section>
+
+    <h2>Cards that rearrange themselves</h2>
+    <section class="cards">
+      <div class="c1">One</div><div class="c2">Two</div><div class="c3">Three</div>
+      <div class="c4">Four</div><div class="c5">Five</div><div class="c6">Six</div>
+    </section>
+
+    <h2>Page layout</h2>
+    <section class="page">
+      <header>Header</header>
+      <aside>Sidebar</aside>
+      <article>Main content</article>
+      <footer>Footer</footer>
+    </section>
+  </main>
+</body>
+</html>

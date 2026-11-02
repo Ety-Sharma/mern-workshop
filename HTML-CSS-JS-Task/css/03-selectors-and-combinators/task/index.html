@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chai & Co. menu</title>
+  <link rel="stylesheet" href="mission.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 📋 START of the instructions box. It is only here to guide you, no need to edit it. -->
+  <aside id="mission">
+    <details open>
+      <summary>🍵 Your mission: Chai &amp; Co. menu card</summary>
+      <p>Selectors are questions you ask the page: "give me every li inside the menu", "only the paragraph right after an h2". Use the right selector for each job.</p>
+      <div class="steps">
+      <label><input type="checkbox"> <b>Step 1:</b> Group selector: style h1 and h2 together: font-family Georgia, serif and color #4a2c17</label>
+      <label><input type="checkbox"> <b>Step 2:</b> Descendant selector: every li inside .menu gets padding 8px 0 and a border-bottom: 1px dashed #d9b98c</label>
+      <label><input type="checkbox"> <b>Step 3:</b> Child selector (&gt;): only a p that is a DIRECT child of .menu gets text-align center and color gray</label>
+      <label><input type="checkbox"> <b>Step 4:</b> Adjacent sibling (+): the p that comes right after an h2 gets font-style italic and color #8a5a2b</label>
+      <label><input type="checkbox"> <b>Step 5:</b> Attribute selector: links with target="_blank" get color crimson and font-weight bold</label>
+      <label><input type="checkbox"> <b>Step 6:</b> Class selector: .price gets color #b45309 and font-weight bold</label>
+      </div>
+      <p class="see"><b>✅ You'll know it works when:</b></p>
+      <ul><li>Headings use a serif brown font.</li><li>Menu items have dashed lines under them and prices are bold orange.</li><li>Only the tagline under the main title is centred.</li><li>The first line under each h2 is italic; the map link is bold crimson.</li></ul>
+      <p class="tip">Tip: open the code, find each <b>✏️ TODO</b> comment, write your code, save, then refresh the browser (or use Go Live). Tick the boxes as you go.</p>
+    </details>
+  </aside>
+  <!-- 📋 END of the instructions box -->
+  <main class="menu">
+    <h1>Chai &amp; Co.</h1>
+    <p>Fresh brews since 2026</p>
+
+    <section>
+      <h2>Hot drinks</h2>
+      <p>Served in a kulhad</p>
+      <ul>
+        <li>Masala chai <span class="price">₹40</span></li>
+        <li>Cutting chai <span class="price">₹20</span></li>
+        <li>Filter coffee <span class="price">₹50</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Snacks</h2>
+      <p>Fresh every morning</p>
+      <ul>
+        <li>Samosa <span class="price">₹15</span></li>
+        <li>Bun maska <span class="price">₹35</span></li>
+      </ul>
+    </section>
+
+    <footer>
+      <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">Find us on the map</a> ·
+      <a href="#top">Back to top</a>
+    </footer>
+  </main>
+</body>
+</html>

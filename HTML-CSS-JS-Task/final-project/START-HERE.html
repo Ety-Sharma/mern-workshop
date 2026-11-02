@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Project: Start Here</title>
+<style>
+:root{--brand:#4f46e5;--ink:#1e293b;--muted:#64748b;--soft:#f1f5f9;--accent:#f59e0b}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:#fff}
+header.top{background:linear-gradient(135deg,#4f46e5,#7c3aed);color:#fff;padding:3.5rem 1.5rem;text-align:center}
+header.top h1{margin:0 0 .5rem;font-size:clamp(1.9rem,5vw,3rem)}
+header.top p{margin:0 auto;max-width:640px;opacity:.95;font-size:1.1rem}
+main{max-width:960px;margin:0 auto;padding:1rem 1.25rem 4rem}
+section{margin-top:2.5rem}
+h2{font-size:1.6rem;margin:0 0 .75rem}
+h3{margin:1.4rem 0 .4rem;color:var(--brand)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.card{background:var(--soft);border-radius:14px;padding:1rem 1.2rem}
+.card b{display:block;margin-bottom:.2rem}
+ul.steps{list-style:none;padding:0;margin:0}
+ul.steps li{margin:.4rem 0}
+ul.steps label{display:block;background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:.5rem .8rem;cursor:pointer}
+ul.refs{padding:0;list-style:none;display:grid;gap:.4rem}
+ul.refs li{background:var(--soft);border-radius:10px;padding:.5rem .9rem}
+ul.refs a{font-weight:700;color:var(--brand);margin-right:.6rem}
+ul.refs span{color:var(--muted);font-size:.93rem}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem}
+.preview img{width:100%;height:auto;border-radius:12px;border:1px solid #e2e8f0;box-shadow:0 6px 18px rgba(15,23,42,.12)}
+.preview figcaption{text-align:center;color:var(--muted);font-size:.9rem;margin-top:.4rem}
+.preview{margin:0}
+.note{background:#fffbeb;border:2px dashed var(--accent);border-radius:12px;padding:.8rem 1.1rem}
+code{background:#eef2ff;color:#3730a3;padding:1px 6px;border-radius:5px;font-size:.92em}
+pre{background:#0f172a;color:#e2e8f0;padding:1rem;border-radius:12px;overflow:auto;font-size:.9rem}
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>🏆 Your Portfolio Website</h1>
+  <p>You have learnt HTML and CSS. Now put everything together into a website about <b>you</b>, one you can proudly show to friends, teachers and future employers.</p>
+</header>
+<main>
+
+<section>
+  <h2>What you will build</h2>
+  <p>A one-page portfolio with a navbar, a hero, an about section, skills, projects and a contact area. It uses <b>only HTML and CSS</b> (no JavaScript needed). Here is the finished look:</p>
+  <div class="two">
+    <figure class="preview"><img src="preview/desktop.jpg" alt="Finished portfolio on a laptop screen"><figcaption>On a laptop</figcaption></figure>
+    <figure class="preview" style="max-width:280px;margin:0 auto"><img src="preview/mobile.jpg" alt="Finished portfolio on a phone screen"><figcaption>On a phone</figcaption></figure>
+  </div>
+</section>
+
+<section>
+  <h2>Get started in 4 minutes</h2>
+  <ol>
+    <li>Open the <code>starter</code> folder in VS Code (File, Open Folder).</li>
+    <li>Right-click <code>index.html</code> and choose <b>Open with Live Server</b>.</li>
+    <li>Open <code>index.html</code> and <code>css/style.css</code> side by side.</li>
+    <li>Look for the <b>✏️ TODO</b> comments. Each one tells you exactly what to write. Do them in order, saving after each one.</li>
+  </ol>
+  <p class="note">💡 The sample site is about "Aarav Sharma". Write about <b>yourself</b>: your name, your story, your skills, your projects. Replace the sample photo in <code>assets/images/avatar.jpg</code> with your own square photo.</p>
+</section>
+
+<section>
+  <h2>Your checklist</h2>
+  <div class="two">
+    <div><h3>Part A: HTML (index.html)</h3><ul class="steps"><li><label><input type="checkbox"> <b>Step 1:</b> Head: title, description, favicon, stylesheet</label></li>
+<li><label><input type="checkbox"> <b>Step 2:</b> Navbar: logo and links</label></li>
+<li><label><input type="checkbox"> <b>Step 3:</b> Hero text and two buttons</label></li>
+<li><label><input type="checkbox"> <b>Step 4:</b> Your photo</label></li>
+<li><label><input type="checkbox"> <b>Step 5:</b> About text and a figure</label></li>
+<li><label><input type="checkbox"> <b>Step 6:</b> Education table</label></li>
+<li><label><input type="checkbox"> <b>Step 7:</b> Skills list with logos</label></li>
+<li><label><input type="checkbox"> <b>Step 8:</b> Three project cards</label></li>
+<li><label><input type="checkbox"> <b>Step 9:</b> Contact form</label></li>
+<li><label><input type="checkbox"> <b>Step 10:</b> Social links</label></li>
+<li><label><input type="checkbox"> <b>Step 11:</b> Footer</label></li></ul></div>
+    <div><h3>Part B: CSS (css/style.css)</h3><ul class="steps"><li><label><input type="checkbox"> <b>Step 1:</b> Section spacing</label></li>
+<li><label><input type="checkbox"> <b>Step 2:</b> Headings with a yellow line</label></li>
+<li><label><input type="checkbox"> <b>Step 3:</b> Sticky header</label></li>
+<li><label><input type="checkbox"> <b>Step 4:</b> Navigation links and hover</label></li>
+<li><label><input type="checkbox"> <b>Step 5:</b> Hero layout (flex)</label></li>
+<li><label><input type="checkbox"> <b>Step 6:</b> Hero details and round photo</label></li>
+<li><label><input type="checkbox"> <b>Step 7:</b> Buttons</label></li>
+<li><label><input type="checkbox"> <b>Step 8:</b> About grid and figure</label></li>
+<li><label><input type="checkbox"> <b>Step 9:</b> Table styling</label></li>
+<li><label><input type="checkbox"> <b>Step 10:</b> Skills grid</label></li>
+<li><label><input type="checkbox"> <b>Step 11:</b> Project cards and badge</label></li>
+<li><label><input type="checkbox"> <b>Step 12:</b> Contact form</label></li>
+<li><label><input type="checkbox"> <b>Step 13:</b> Social links</label></li>
+<li><label><input type="checkbox"> <b>Step 14:</b> Footer</label></li>
+<li><label><input type="checkbox"> <b>Step 15:</b> Mobile-first media query</label></li></ul></div>
+  </div>
+</section>
+
+<section>
+  <h2>What is inside the <code>assets</code> folder?</h2>
+  <div class="cards">
+    <div class="card"><b>images/</b>A sample photo (<code>avatar.jpg</code>), a desk picture, three project thumbnails and a favicon. Swap them for your own.</div>
+    <div class="card"><b>icons/</b>Logos for HTML5, CSS3, Git, GitHub, VS Code, Chrome, Figma plus social icons (GitHub, LinkedIn, Instagram, X, YouTube, WhatsApp, Gmail).</div>
+  </div>
+</section>
+
+<section>
+  <h2>Make it truly yours</h2>
+  <ul>
+    <li><b>Your photo:</b> square, around 600 × 600 px. Keep the file name <code>avatar.jpg</code> or change the <code>src</code>.</li>
+    <li><b>Your projects:</b> build 3 pages from this course (invite, menu, gallery or your own idea). Take a screenshot of each: in DevTools press <code>Ctrl+Shift+P</code>, type <b>screenshot</b> and pick <b>Capture full size screenshot</b>.</li>
+    <li><b>Your colours:</b> change the colour variables at the top of <code>style.css</code> (<code>--brand</code>, <code>--accent</code>) and the whole site changes. Try a palette from Coolors.</li>
+    <li><b>Your links:</b> replace <code>your-username</code> in the GitHub, LinkedIn and Instagram links with your real ones.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Where to find logos, images and more</h2>
+  <p>Always check the licence on the page. Most of these are free for personal and portfolio use, and some ask you to give credit.</p>
+  <h3>Logos and icons</h3><ul class="refs"><li><a href="https://devicon.dev" target="_blank" rel="noopener noreferrer">Devicon</a><span>Programming and tool logos as SVG (HTML5, CSS3, Git, VS Code...)</span></li><li><a href="https://simpleicons.org" target="_blank" rel="noopener noreferrer">Simple Icons</a><span>Thousands of brand logos (GitHub, Instagram, YouTube...)</span></li><li><a href="https://www.svgrepo.com" target="_blank" rel="noopener noreferrer">SVG Repo</a><span>Free SVG icons and illustrations</span></li><li><a href="https://icons8.com/icons" target="_blank" rel="noopener noreferrer">Icons8</a><span>Icons in many styles (check the licence)</span></li><li><a href="https://fontawesome.com/icons" target="_blank" rel="noopener noreferrer">Font Awesome</a><span>Popular free icon set</span></li></ul><h3>Photos and illustrations</h3><ul class="refs"><li><a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a><span>Free high-quality photos</span></li><li><a href="https://www.pexels.com" target="_blank" rel="noopener noreferrer">Pexels</a><span>Free photos and videos</span></li><li><a href="https://pixabay.com" target="_blank" rel="noopener noreferrer">Pixabay</a><span>Free photos, vectors and illustrations</span></li><li><a href="https://undraw.co/illustrations" target="_blank" rel="noopener noreferrer">unDraw</a><span>Free illustrations you can recolour</span></li></ul><h3>Favicon, fonts and colours</h3><ul class="refs"><li><a href="https://favicon.io" target="_blank" rel="noopener noreferrer">Favicon.io</a><span>Make a favicon from text, an emoji or an image</span></li><li><a href="https://fonts.google.com" target="_blank" rel="noopener noreferrer">Google Fonts</a><span>Free fonts, copy the link tag into your head</span></li><li><a href="https://coolors.co" target="_blank" rel="noopener noreferrer">Coolors</a><span>Generate colour palettes (press the space bar)</span></li><li><a href="https://colorhunt.co" target="_blank" rel="noopener noreferrer">Color Hunt</a><span>Ready-made palettes</span></li></ul><h3>Image tools</h3><ul class="refs"><li><a href="https://squoosh.app" target="_blank" rel="noopener noreferrer">Squoosh</a><span>Make images smaller so your page loads fast</span></li><li><a href="https://tinypng.com" target="_blank" rel="noopener noreferrer">TinyPNG</a><span>Compress PNG and JPG files</span></li><li><a href="https://placehold.co" target="_blank" rel="noopener noreferrer">Placehold.co</a><span>Temporary placeholder images while you build</span></li></ul><h3>When you get stuck</h3><ul class="refs"><li><a href="https://developer.mozilla.org" target="_blank" rel="noopener noreferrer">MDN Web Docs</a><span>The best reference for HTML and CSS</span></li><li><a href="https://flexboxfroggy.com" target="_blank" rel="noopener noreferrer">Flexbox Froggy</a><span>A game that teaches Flexbox</span></li><li><a href="https://cssgridgarden.com" target="_blank" rel="noopener noreferrer">Grid Garden</a><span>A game that teaches Grid</span></li><li><a href="https://developer.chrome.com/docs/devtools" target="_blank" rel="noopener noreferrer">Chrome DevTools</a><span>Learn to inspect and debug any page</span></li></ul><h3>Put it online (free)</h3><ul class="refs"><li><a href="https://pages.github.com" target="_blank" rel="noopener noreferrer">GitHub Pages</a><span>Host your site from a GitHub repository</span></li><li><a href="https://app.netlify.com/drop" target="_blank" rel="noopener noreferrer">Netlify Drop</a><span>Drag your folder in and get a live link</span></li></ul>
+</section>
+
+<section>
+  <h2>Before you say "done"</h2>
+  <ul class="steps">
+    <li><label><input type="checkbox"> Every image has an <code>alt</code> (or <code>alt=""</code> if it is only decoration).</label></li>
+    <li><label><input type="checkbox"> Every link works: nav links jump to sections, external links open in a new tab.</label></li>
+    <li><label><input type="checkbox"> Press F12, then Ctrl+Shift+M and check the page on a phone size and a laptop size.</label></li>
+    <li><label><input type="checkbox"> Hover over the nav links, buttons, skills and project cards to check the hover effects.</label></li>
+    <li><label><input type="checkbox"> Your name, photo and projects are yours, not the sample ones.</label></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Bonus ideas (only if you finish early)</h2>
+  <ul>
+    <li>Add a fourth project card or a "Certificates" section.</li>
+    <li>Change the hero background to a different <code>linear-gradient</code>.</li>
+    <li>Put your site online with GitHub Pages or Netlify Drop and share the link.</li>
+  </ul>
+</section>
+
+</main>
+</body>
+</html>

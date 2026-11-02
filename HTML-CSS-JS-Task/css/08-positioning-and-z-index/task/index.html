@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky bar, badge and stack</title>
+  <link rel="stylesheet" href="mission.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 📋 START of the instructions box. It is only here to guide you, no need to edit it. -->
+  <aside id="mission">
+    <details open>
+      <summary>📌 Your mission: Sticky bar, badge and stack</summary>
+      <p>Positioning lets you place things exactly where you want: pinned to a corner of their parent, stuck to the top while scrolling, or floating above everything else.</p>
+      <div class="steps">
+      <label><input type="checkbox"> <b>Step 1:</b> Sticky: .topbar gets position sticky, top 0 and z-index 10</label>
+      <label><input type="checkbox"> <b>Step 2:</b> Absolute inside relative: .product gets position relative (the anchor). Then .badge gets position absolute, top 12px and right 12px</label>
+      <label><input type="checkbox"> <b>Step 3:</b> Fixed: .to-top gets position fixed, bottom 20px and right 20px</label>
+      <label><input type="checkbox"> <b>Step 4:</b> Make the squares overlap: .stack gets position relative and height 220px. Each .layer gets position absolute. Then give .layer-1 top 0 and left 0, .layer-2 top 30px and left 40px, .layer-3 top 60px and left 80px</label>
+      <label><input type="checkbox"> <b>Step 5:</b> z-index: bring the BLUE square (.layer-1) to the front with z-index 5</label>
+      </div>
+      <p class="see"><b>✅ You'll know it works when:</b></p>
+      <ul><li>The dark bar sticks to the top while you scroll.</li><li>A red NEW badge sits in the top-right corner of the product card.</li><li>A purple "Top" button floats in the bottom-right corner of the window.</li><li>Three coloured squares overlap, with the BLUE one on top.</li></ul>
+      <p class="tip">Tip: open the code, find each <b>✏️ TODO</b> comment, write your code, save, then refresh the browser (or use Go Live). Tick the boxes as you go.</p>
+    </details>
+  </aside>
+  <!-- 📋 END of the instructions box -->
+  <header class="topbar">My Shop</header>
+
+  <main class="page">
+    <article class="product">
+      <span class="badge">NEW</span>
+      <h2>Kulhad Set</h2>
+      <p>Set of 4 handmade clay cups.</p>
+    </article>
+
+    <h2>Overlapping squares</h2>
+    <div class="stack">
+      <div class="layer layer-1">1</div>
+      <div class="layer layer-2">2</div>
+      <div class="layer layer-3">3</div>
+    </div>
+
+    <h2>Keep scrolling</h2>
+    <p>Scroll down and watch the dark bar at the top. It stays with you.</p>
+    <p>Chai is best on a rainy evening, with a window seat and a good friend.</p>
+    <p>A website is built one small step at a time: structure first, style next, behaviour last.</p>
+    <p>Practice makes you faster. Practice makes you better. Practice makes things click.</p>
+    <p>The first time something works on your screen, you will remember the feeling.</p>
+    <p>Keep going. You are doing great.</p>
+    <p>Almost at the bottom now.</p>
+    <p>One more paragraph to make the page long enough.</p>
+    <p>And a final one for luck.</p>
+  </main>
+
+  <a class="to-top" href="#">Top</a>
+</body>
+</html>
