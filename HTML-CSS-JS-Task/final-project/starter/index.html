@@ -6,6 +6,10 @@
   <!-- ✏️ TODO 1: Head: add a title ("Your Name | Web Developer"), a meta description, the favicon (assets/images/favicon.svg) and link css/style.css -->
   <!-- 💡 Hint: <link rel="icon" href="..."> and <link rel="stylesheet" href="..."> -->
   <!-- ⬇️ Write your code below this line -->
+<title>Ety Sharma</title> 
+    <meta name="description" content=" My Portfolio">
+    <link rel="icon" href="assets/images/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
 
   <!-- Google Font (already added for you) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,7 +23,16 @@
       <!-- ✏️ TODO 2: Navbar: a logo link (class "logo") that goes to #top, and a nav (class "nav") holding a ul (class "nav-links") with links to #about, #skills, #projects and #contact -->
       <!-- 💡 Hint: Logo idea: Aarav<span>.dev</span>. Each link goes inside an li -->
       <!-- ⬇️ Write your code below this line -->
+ <a href="#top" class="logo">Ety<span>.dev</span></a>
 
+     <nav class="nav">
+    <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
     </div>
   </header>
 
@@ -30,10 +43,20 @@
       <div class="hero-text">
         <!-- ✏️ TODO 3: Hero text: a p (class "eyebrow") saying hello, an h1 with your name, a p (class "tagline") with one line about you (use strong for 2 key words), and a div (class "hero-buttons") with two links: "See my work" (#projects, classes "btn btn-primary") and "Contact me" (#contact, classes "btn btn-outline") -->
         <!-- ⬇️ Write your code below this line -->
+ <p class="eyebrow">Hello, I'm <h1>Ety Sharma</h1></p>
 
+        
+       <p class="tagline">
+     I'm a passionate <strong>Web Developer</strong> who loves building<strong>creative websites</strong> and interactive experiences.</p>
+
+<div class="hero-buttons">
+  <a href="#projects" class="btn btn-primary">See my work</a>
+  <a href="#contact" class="btn btn-outline">Contact me</a>
+</div>
       </div>
       <!-- ✏️ TODO 4: Your photo: img with class "avatar", src assets/images/avatar.jpg, a good alt, width 300 and height 300. (Later, replace avatar.jpg with YOUR photo!) -->
       <!-- ⬇️ Write your code below this line -->
+     <img class="avatar" src="assets/Ety_portrait.png" width="300" height="300" alt="Profile picture">
 
     </section>
 
@@ -44,14 +67,54 @@
         <div class="about-text">
           <!-- ✏️ TODO 5: About text: two p paragraphs about you, then a figure (assets/images/hero.jpg, with alt, width 600, height 400) with a figcaption -->
           <!-- ⬇️ Write your code below this line -->
-
+<p> Hello! I'm Ety Sharma, a passionate web developer and computer science
+          student who enjoys creating beautiful and user-friendly websites.
+        </p>
         </div>
+  <p>I love learning new technologies and solving problems through code.
+      My goal is to build creative and responsive web applications using
+      HTML, CSS, JavaScript and modern web technologies.
+      </p>
 
+   <figure>
+  <img src="assets/images/hero.jpg" alt="Workspace showing a web development setup" width="600" height="400">
+  <figcaption>My journey into web development.</figcaption>
+</figure>
         <div class="about-table">
           <!-- ✏️ TODO 6: Education table (class "edu"): a caption, a thead with Course / Where / Year, and a tbody with 3 rows -->
           <!-- 💡 Hint: Use th in the header row and td for cells -->
           <!-- ⬇️ Write your code below this line -->
+<table class="edu">
+  <caption>My Education</caption>
 
+  <thead>
+    <tr>
+      <th>Course</th>
+      <th>Where</th>
+      <th>Year</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>B.Tech Computer Science</td>
+      <td>NGF College of Engineering and Technology</td>
+      <td>2023–2027</td>
+    </tr>
+
+    <tr>
+      <td>Senior Secondary (12th)</td>
+      <td>Mahavir Vidya Niketan</td>
+      <td>2023</td>
+    </tr>
+
+    <tr>
+      <td>Secondary (10th)</td>
+      <td>Mahavir Vidya Niketan</td>
+      <td>2021</td>
+    </tr>
+  </tbody>
+</table>
         </div>
       </div>
     </section>
@@ -62,7 +125,39 @@
       <!-- ✏️ TODO 7: Skills: a ul (class "skills") with at least 6 li. Each li has an img (a logo from assets/icons, alt="", width 48, height 48) and a span with the name -->
       <!-- 💡 Hint: The icon is decoration, the name beside it says everything, so alt="" is correct -->
       <!-- ⬇️ Write your code below this line -->
+<ul class="skills">
 
+  <li>
+    <img src="assets/icons/html5.svg" alt="HTML" width="48" height="48">
+    <span>HTML</span>
+  </li>
+
+  <li>
+    <img src="assets/icons/css3.svg" alt="CSS" width="48" height="48">
+    <span>CSS</span>
+  </li>
+
+  <li>
+    <img src="assets/icons/git.svg" alt="Git" width="48" height="48">
+    <span>Git</span>
+  </li>
+
+  <li>
+    <img src="assets/icons/github.svg" alt="Github" width="48" height="48">
+    <span>Github</span>
+  </li>
+
+  <li>
+    <img src="assets/icons/vscode.svg" alt="VS Code" width="48" height="48">
+    <span>VS Code</span>
+  </li>
+
+  <li>
+    <img src="assets/icons/chrome.svg" alt="Chrome" width="48" height="48">
+    <span>DevTools</span>
+  </li>
+
+</ul>
     </section>
 
     <!-- ========== PROJECTS ========== -->
@@ -72,6 +167,36 @@
         <!-- ✏️ TODO 8: Projects: three article cards (class "project"). Each has a data-type="html-css" attribute, a span (class "tag"), an img (the three project-*.jpg files, width 800, height 500), a div (class "project-body") with an h3, a p and a link "View project" -->
         <!-- 💡 Hint: Use your tasks from this course: invite page, menu card, photo gallery. Replace the images with screenshots of YOUR work -->
         <!-- ⬇️ Write your code below this line -->
+<div class="projects">
+
+  <article class="project" data-type="html-css">
+    <span class="tag">Full stack</span>
+    <img src="assets/stayfinder.png" alt="Invite Page" width="800" height="500">
+    <div class="project-body">
+      <h3>Stayfinder</h3>
+      <p>A full-stack accommodation listing platform where users can explore, create, and manage property listings. Features include user authentication
+        , image uploads, location-based listings, reviews, and owner-specific listing management, built using Node.js, Express.js, MongoDB, and EJS.
+
+      </p>
+      <a href="https://stayfinder-m6v4.onrender.com">View project</a>
+    </div>
+  </article>
+
+  <article class="project" data-type="html-css">
+    <span class="tag">Full stack</span>
+    <img src="assets/Pyq.png" alt="Menu Card" width="800" height="500">
+    <div class="project-body">
+      <h3>Pyq Adda</h3>
+      <p>A web-based platform designed to help students easily access and download university previous-year question papers. 
+        Features include user authentication, subject-wise paper browsing, search functionality, and organized question paper downloads, built using HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB.
+
+      </p>
+      <a href="https://pyq-website-886r.onrender.com">View project</a>
+    </div>
+  </article>
+
+  
+</div>
 
       </div>
     </section>
@@ -82,13 +207,57 @@
       <div class="contact-grid">
         <!-- ✏️ TODO 9: Contact form (class "contact-form", method get): Name (text, required), Email (email, required) and Message (textarea, 4 rows), each with a label linked by for and id, plus a submit button "Send message" -->
         <!-- ⬇️ Write your code below this line -->
+<form class="contact-form" method="get">
+
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="4"></textarea>
+
+  <button type="submit">Send message</button>
+
+</form>
 
 
         <div class="contact-links">
           <!-- ✏️ TODO 10: Social links: a ul (class "socials") with 4 li. Each li has a link with an icon (width 24, height 24, alt="") and text: GitHub, LinkedIn, Instagram and Email (mailto:). External links open in a new tab with rel="noopener noreferrer" -->
           <!-- 💡 Hint: Icons are in assets/icons: github-mark.svg, linkedin.svg, instagram.svg, gmail.svg -->
           <!-- ⬇️ Write your code below this line -->
+<ul class="socials">
 
+  <li>
+    <a href="https://github.com/Ety-Sharma" target="_blank" rel="noopener noreferrer">
+      <img src="assets/icons/github-mark.svg" width="24" height="24" alt="">
+      GitHub
+    </a>
+  </li>
+
+  <li>
+    <a href="www.linkedin.com/in/ety-sharma-96ab49313" target="_blank" rel="noopener noreferrer">
+      <img src="assets/icons/linkedin.svg" width="24" height="24" alt="">
+      LinkedIn
+    </a>
+  </li>
+
+  <li>
+    <a href="https://instagram.com/your-username" target="_blank" rel="noopener noreferrer">
+      <img src="assets/icons/instagram.svg" width="24" height="24" alt="">
+      Instagram
+    </a>
+  </li>
+
+  <li>
+    <a href="mailto:your-email@gmail.com">
+      <img src="assets/icons/gmail.svg" width="24" height="24" alt="">
+      Email
+    </a>
+  </li>
+
+</ul>
         </div>
       </div>
     </section>
@@ -98,7 +267,10 @@
   <footer class="site-footer">
     <!-- ✏️ TODO 11: Footer: a p with a copyright line and a link "Back to top" that goes to #top -->
     <!-- ⬇️ Write your code below this line -->
-
+ <p>
+    &copy; 2026 Ety Sharma. All rights reserved.
+    <a href="#top">Back to top</a>
+  </p>
   </footer>
 
 </body>
