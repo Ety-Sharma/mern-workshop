@@ -7,3 +7,19 @@ const fakeFetchFail = () =>
   new Promise((_, reject) => setTimeout(() => reject(new Error("Network down")), 300));
 
 // TODO: write async function main() as described in the task, then call it
+async function main() {
+    try {
+        const jobs = await fakeFetchJobs();
+        console.log("Jobs:", jobs);
+    } catch (error) {
+        console.log("Error:", error.message);
+    }
+
+    try {
+        await fakeFetchFail();
+    } catch (error) {
+        console.log("Error:", error.message);
+    }
+}
+
+main();
