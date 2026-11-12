@@ -8,9 +8,17 @@ const jobs = [
 ];
 
 // TODO 1: map -> names only, print
-
+const names= jobs.map((job)=>
+  jobs.name);
+console.log(names);
 // TODO 2: filter -> ctc >= 8, print
+const highctc =jobs.filter((job)=>
+  job.ctc>=8);
+console.log(highctc);
+
 
 // TODO 3: filter then map -> names of those, print
-
+console.log(jobs.filter((j)=>j.ctc>=8).map((j)=>j.company));
 // TODO 4: map -> "Acme: 6 LPA" style labels, print
+const labels = jobs.map((job) => `${job.company}: ${job.ctc} LPA`);
+console.log(labels);
